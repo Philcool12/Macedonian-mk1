@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Macedonian Learning App</title>
+    <link rel ="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+    <link rel ="stylesheet" href="css/style.css" />
+
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script> 
+    <script src="js/main.js"></script>
+
+</head>
+    <body>
+        <!== Home Page ==>
+        <div data-role="page" id="home">
+            <header data-role="header">
+                <h1><a>Macedonian Learning App</a></h1>
+            </header>
+
+            <main data-role="content" id="content">
+                <p><a data-role="button" data-theme="b">Choose a lesson</a></p>
+                <p><a href="#lesson1" data-role="button">Lesson 1</a></p>
+                <p><a href="#lesson2" data-role="button">Lesson 2</a></p>
+                <p><a href="#lesson3" data-role="button">Lesson 3</a></p>
+                        
+                </main>
+
+            <footer data-role="content" id="content">
+                <h4>Mobiletodo &copy;2020</h4>
+                
+            </footer>
+        </div>
+
+        <!== Lesson 1 Page ==>
+        <div data-role="page" id="lesson1">
+            <header data-role="header">
+                <a href="index.html" id="cancel_btn" data-icon="delete">Back</a>
+                <h1>Lesson 1</h1>
+                <a data-icon="check" data-theme="b" onclick="$('#save').submit();">Check</a>
+            </header>
+            <main data-role="content" id="content">
+                <p><a data-role="button" data-theme="b">Translate: Kompir</a></p>
+                <p><a href="#lesson1" data-role="button">Apple</a></p>
+                <p><a href="#lesson1" data-role="button">Potato</a></p>
+                <p><a href="#lesson1" data-role="button">Pumpkin</a></p>
+                <p><a href="#lesson1" data-role="button">Banana</a></p>
+            </main>
+
+            <footer data-role="content" id="content">
+                <h4>Mobiletodo &copy;2020</h4>
+                
+            </footer>
+        </div>
+
+    </body>
+    </html>
